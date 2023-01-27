@@ -12,13 +12,13 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="2px">
+    <table border="2px" >
         <tr>
             <th>No</th>
             <th>Name</th>
             <th>Email</th>
         </tr>
-        <?php for($i = 0; $i < 10; $i++) {?>
+        <?php for($i = 1; $i < 11; $i++) {?>
         <tr>
             <td><?= $i ?></td>
             <td><?= $faker->name?></td>
